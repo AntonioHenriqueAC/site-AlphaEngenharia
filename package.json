@@ -1,0 +1,27 @@
+{
+  "name": "alpha-eng",
+  "version": "1.0.0",
+  "description": "Website developed for company Alpha Engenharia",
+  "main": "index.js",
+  "dependencies": {
+    "aos": "^2.3.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "git push -f origin master"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AntonioHenriqueAC/site-AlphaEngenharia.git"
+  },
+  "keywords": [
+    "opala"
+  ],
+  "author": "Antonio Henrique Alves Cardoso",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AntonioHenriqueAC/site-AlphaEngenharia/issues"
+  },
+  "homepage": "https://github.com/AntonioHenriqueAC/site-AlphaEngenharia#readme"
+}
