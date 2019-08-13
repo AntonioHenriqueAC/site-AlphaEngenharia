@@ -199,7 +199,7 @@ button {
 
 
 #whatsapp {
-   top: 92vh;
+   top: 90vh;
    right: 2%;
    bottom: 2%;
    z-index: 999;
@@ -1037,6 +1037,11 @@ figure.effect-bubba:hover p {
    display: none;
 }
 
+#project-section .project-gallery {
+   height: 700px;
+   overflow: scroll;
+}
+
 #project-section .project-gallery .single-img {
    position: relative;
    overflow: hidden;
@@ -1153,3 +1158,8 @@ figure.effect-bubba:hover p {
    -o-transform: translate3D(0, 0, 0);
    transform: translate3D(0, 0, 0);
 }
+
+
+/* ================
+      Scroll lateral
+===============*/
