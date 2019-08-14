@@ -257,7 +257,10 @@ p {
 		font-family: 'Montserrat', sans-serif;
 		margin-right: 0%;
 		text-align: center;
+	}
 
+	.footer {
+		min-height: 160px;
 	}
 
 	.navbar-static-top.scrolled li {
@@ -326,6 +329,14 @@ p {
 	.navbar-static-top.scrolled {
 		background-color: #23211bff !important;
 		transition: background-color 1400ms linear;
+	}
+
+	.text-opala {
+		font-size: 13px !important;
+		padding-top: 12px;
+		color: #b9d8ea;
+		font-family: 'Montserrat', sans-serif;
+		margin-right: 25%;
 	}
 
 

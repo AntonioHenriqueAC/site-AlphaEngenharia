@@ -1,11 +1,40 @@
 html {
-   scroll-behavior: smooth;
    overflow-x: hidden;
+   scroll-behavior: smooth;
+
 }
 
 body {
    overflow-x: hidden;
+
 }
+
+
+/* Let's get this party started */
+::-webkit-scrollbar {
+   width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+   -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+   -webkit-border-radius: 10px;
+   border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+   -webkit-border-radius: 10px;
+   border-radius: 10px;
+   background-color: #23211bff;
+   -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+}
+
+::-webkit-scrollbar-thumb:window-inactive {
+   background: rgba(58, 58, 58, 0.712);
+}
+
+
 
 
 /* Top Carousel */
@@ -113,11 +142,12 @@ button.accordion:hover {
 button.accordion:after {
    content: '\02795';
    font-size: 14px;
-   color: #f27d20ff;
+   color: black;
    float: right;
    margin-left: 5px;
    margin-top: 2px;
 }
+
 
 button.accordion.active:after {
    content: "\2796";
@@ -171,11 +201,23 @@ button {
 
 }
 
+
+/* about */
+
 .row {
    margin-left: 15px;
    margin-top: 10px;
-
 }
+
+.row h2 {
+   font-size: 350%;
+}
+
+.row .about p {
+   font-size: 150%;
+}
+
+
 
 .header-link {
    color: rgb(76, 77, 79);
@@ -259,17 +301,6 @@ svg:not(:root).svg-inline--fa {
 
    .carousel .item {
       height: 300px;
-   }
-
-   .videoresponsive {
-      padding-top: 15%;
-      padding-bottom: 15%;
-   }
-
-   .videoresponsive iframe {
-      position: relative;
-      width: 100%;
-      height: 100%;
    }
 
    .empresaheader h2 {
@@ -366,6 +397,7 @@ svg:not(:root).svg-inline--fa {
 =====================
 */
 @media only screen and (min-width: 480px) and (max-width: 1024px) {
+
 
    .carousel .item {
       height: 300px;
@@ -1045,7 +1077,14 @@ figure.effect-bubba:hover p {
    text-align: center;
    margin-top: 34px;
    margin-bottom: 60px;
+
 }
+
+ul,
+ol {
+   padding-left: 0px !important;
+}
+
 
 #project-section .project-menu ul li {
    display: inline-block;
@@ -1074,6 +1113,8 @@ figure.effect-bubba:hover p {
 #project-section .project-gallery .single-img {
    position: relative;
    overflow: hidden;
+   margin-right: 6%;
+
 }
 
 #project-section .project-gallery .single-img .opacity {
@@ -1103,6 +1144,8 @@ figure.effect-bubba:hover p {
 
 #project-section .project-gallery .single-img .opacity h6 a {
    color: #fff;
+   font-size: 23px;
+
 
 }
 
@@ -1195,7 +1238,7 @@ figure.effect-bubba:hover p {
 
 
 .scrollbar {
-   margin-left: 30px;
+   margin-left: 1%;
    float: left;
    height: 586px;
    width: 100%;

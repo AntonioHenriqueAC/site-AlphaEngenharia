@@ -64,14 +64,14 @@ section {
 }
 
 .testimonials {
- background-image: url(../images/testimonial-background.jpg);
- height: auto;
- background-repeat: no-repeat;
- margin-top: -120px;
- background-size: cover;
- background-attachment: fixed;
- padding-bottom: 130px;
- margin-bottom: -10px;
+  background-image: url(../images/testimonial-background.jpg);
+  height: auto;
+  background-repeat: no-repeat;
+  margin-top: -120px;
+  background-size: cover;
+  background-attachment: fixed;
+  padding-bottom: 130px;
+  margin-bottom: -10px;
 }
 
 blockquote p {
@@ -101,71 +101,80 @@ blockquote p {
 
 /* Smartphones (portrait and landscape) ----------- */
 
-@media only screen 
-and (max-width: 480px) {
-  
+@media only screen and (max-width: 480px) {
+
   .testimonials h4 {
     font-size: 35px;
     padding-left: 10px;
     padding-right: 10px;
   }
+
   .testimonial-head h4 {
     font-size: 30px;
     margin-top: -10px;
-    color: #ffffff;
+    color: #f27d20ff;
     padding-bottom: 30px;
     padding-top: 30px;
     font-family: 'Montserrat', sans-serif;
   }
+
   .testimonial-head {
     background-color: #23211bff;
     height: auto;
   }
+
   blockquote p {
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
     color: #444444;
     padding-bottom: 60px !important;
   }
+
   .quote-div {
     min-height: 400px !important;
   }
+
   .icon-controlers li {
     position: relative;
     top: 0px !important;
   }
 
   .chevron {
-   margin-top: 1183%;
-   margin-left: -680%;
-}
+    margin-top: 1183%;
+    margin-left: -680%;
+  }
 
 }
 
-@media only screen 
-and (min-width: 480px) 
-and (max-width: 1024px) {
+@media only screen and (min-width: 480px) and (max-width: 1024px) {
 
   blockquote p {
     font-family: 'Montserrat', sans-serif;
     font-size: 19px;
     color: #444444;
   }
+
   .quote-div {
     margin-top: -60px !important;
     padding-top: 60px;
     max-height: 700px !important;
   }
+
   .icon-controlers li {
     position: relative;
     top: 0px !important;
   }
+
+  .chevron {
+    margin-top: 2010%;
+    margin-left: -1530%;
+  }
+
 }
 
 /* Large screens ----------- */
 
-@media only screen 
-and (min-width: 1824px) {
+@media only screen and (min-width: 1824px) {
 
   .testimonial-head h4 {
     padding-bottom: 30px;
