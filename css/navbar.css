@@ -2,6 +2,8 @@ collapscollapscollapsbody {
 	position: relative;
 }
 
+
+
 p {
 	padding: 0;
 	margin: 0;
@@ -24,7 +26,6 @@ p {
 .alert {
 	font-size: 22px !important;
 	font-weight: bold !important;
-	font-family: 'Montserrat', sans-serif !important;
 	text-shadow: none !important;
 	text-align: center !important;
 }
@@ -63,7 +64,7 @@ p {
 	padding-top: 8px;
 	padding-bottom: 8px;
 	font-size: 13px;
-	font-family: 'Montserrat', sans-serif;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	background-color: rgba(35, 33, 27, 0);
 	border: none;
 
@@ -163,7 +164,7 @@ p {
 	font-size: 14px;
 	padding-top: 12px;
 	color: #ffffff;
-	font-family: 'Montserrat', sans-serif;
+
 }
 
 .policy-links a {
@@ -171,14 +172,16 @@ p {
 	padding-right: 30px;
 	font-size: 12px;
 	color: #e5e5e5 !important;
-	font-family: 'Montserrat', sans-serif;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
 }
 
 .copyright {
 	font-size: 13px !important;
 	padding-top: 30px;
 	color: #b9d8ea;
-	font-family: 'Montserrat', sans-serif;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
 	margin-left: 5%;
 }
 
@@ -186,7 +189,8 @@ p {
 	font-size: 13px !important;
 	padding-top: 30px;
 	color: #b9d8ea;
-	font-family: 'Montserrat', sans-serif;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
 	margin-right: 10%;
 }
 
@@ -220,7 +224,8 @@ p {
 		padding-right: 0px;
 		padding-left: 0px;
 		font-size: 16px;
-		font-family: 'Montserrat', sans-serif;
+		font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
 		margin-top: 0px;
 		border: none;
 	}
@@ -238,14 +243,16 @@ p {
 		font-size: 14px;
 		padding-top: 12px;
 		color: #ffffff;
-		font-family: 'Montserrat', sans-serif;
+		font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
 	}
 
 	.copyright {
 		font-size: 13px !important;
 		padding-top: 33px;
 		color: #b9d8ea;
-		font-family: 'Montserrat', sans-serif;
+		font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
 		margin-left: 5%;
 		text-align: center;
 	}
@@ -254,7 +261,8 @@ p {
 		font-size: 13px !important;
 		padding-top: 15px;
 		color: #b9d8ea;
-		font-family: 'Montserrat', sans-serif;
+		font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
 		margin-right: 0%;
 		text-align: center;
 	}
@@ -302,7 +310,8 @@ p {
 		padding-right: 0px;
 		padding-left: 0px;
 		font-size: 16px;
-		font-family: 'Montserrat', sans-serif;
+		font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
 		margin-top: 0px;
 		border: none;
 	}
@@ -335,7 +344,8 @@ p {
 		font-size: 13px !important;
 		padding-top: 12px;
 		color: #b9d8ea;
-		font-family: 'Montserrat', sans-serif;
+		font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
 		margin-right: 25%;
 	}
 
@@ -362,7 +372,8 @@ p {
 		padding-right: 55px;
 		padding-left: 12px;
 		font-size: 18px;
-		font-family: 'Montserrat', sans-serif;
+		font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
 		margin-top: -2px;
 	}
 
