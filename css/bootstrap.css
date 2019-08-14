@@ -5,7 +5,7 @@
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 html {
-  font-family: sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
 }
@@ -1424,13 +1424,13 @@ textarea {
 }
 
 a {
-  color: #337ab7;
+  color: black;
   text-decoration: none;
 }
 
 a:hover,
 a:focus {
-  color: #23527c;
+  color: black;
   text-decoration: underline;
 }
 
@@ -4000,7 +4000,7 @@ fieldset[disabled] .btn-default.focus {
 .btn-primary.active,
 .open>.dropdown-toggle.btn-primary {
   color: #fff;
-  background-color: #286090;
+  background-color: #080808;
   border-color: #204d74;
 }
 
@@ -5132,7 +5132,7 @@ select[multiple].input-group-sm>.input-group-btn>.btn {
 .nav-pills>li.active>a:hover,
 .nav-pills>li.active>a:focus {
   color: #fff;
-  background-color: #337ab7;
+  background-color: black;
 }
 
 .nav-stacked>li {
