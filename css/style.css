@@ -202,7 +202,7 @@ button {
 }
 
 
-/* about */
+
 
 .row {
    margin-left: 15px;
@@ -216,8 +216,6 @@ button {
 .row .about p {
    font-size: 150%;
 }
-
-
 
 .header-link {
    color: rgb(76, 77, 79);
@@ -301,6 +299,17 @@ svg:not(:root).svg-inline--fa {
 
    .carousel .item {
       height: 300px;
+   }
+
+   .videoresponsive {
+      padding-top: 15%;
+      padding-bottom: 15%;
+   }
+
+   .videoresponsive iframe {
+      position: relative;
+      width: 100%;
+      height: 100%;
    }
 
    .empresaheader h2 {
@@ -397,7 +406,6 @@ svg:not(:root).svg-inline--fa {
 =====================
 */
 @media only screen and (min-width: 480px) and (max-width: 1024px) {
-
 
    .carousel .item {
       height: 300px;
@@ -1152,7 +1160,7 @@ ol {
 #project-section .project-gallery .single-img .opacity ul li {
    display: inline-block;
    color: #fff;
-   margin-top: 8px;
+   margin-top: -8px;
 }
 
 #project-section .project-gallery .single-img .opacity .border-shape>div {
@@ -1231,6 +1239,68 @@ ol {
    transform: translate3D(0, 0, 0);
 }
 
+
+/* button plus */
+
+.buttonPlus {
+   margin-top: 3%;
+   background: transparent;
+   border: 4px solid #F2F2F2;
+   color: #F2F2F2;
+   border-radius: 43px / 43px;
+   padding: 4px 14px;
+   outline: none;
+   font-size: 25px !important;
+   text-transform: uppercase;
+   position: relative;
+   overflow: hidden;
+   transition: all .3s linear;
+   cursor: pointer;
+   font-weight: bold;
+
+}
+
+.buttonPlus:hover {
+   color: #00bbcc
+}
+
+.buttonPlus:before {
+   content: '';
+   background: #F2F2F2;
+   color: #00bbcc;
+   width: 200px;
+   height: 200px;
+   position: absolute;
+   left: -200px;
+   bottom: -150px;
+   transform: rotate(50deg);
+   transition: all .3s linear;
+   z-index: -50
+}
+
+.buttonPlus:hover:before {
+   left: -25px;
+   bottom: -50px
+}
+
+.buttonPlus:after {
+   content: '';
+   background: #F2F2F2;
+   color: #00bbcc;
+   width: 200px;
+   height: 200px;
+   position: absolute;
+   right: -200px;
+   top: -150px;
+   transform: rotate(50deg);
+   transition: all .3s linear;
+   z-index: -50
+}
+
+.buttonPlus:hover:after {
+   right: -25px;
+   top: -50px
+}
 
 /* ================
       Scroll lateral (Gallery Projects)
