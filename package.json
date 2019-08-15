@@ -4,6 +4,7 @@
   "description": "Website developed for company Alpha Engenharia",
   "main": "index.js",
   "dependencies": {
+    "animate.css": "^3.7.2",
     "aos": "^2.3.4"
   },
   "devDependencies": {},

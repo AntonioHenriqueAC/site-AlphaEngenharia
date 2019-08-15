@@ -5,6 +5,11 @@ html {
 
 body {
   overflow-x: hidden;
+  font-family: 'Playfair Display', serif;
+}
+
+* {
+  font-family: 'Playfair Display', serif;
 }
 
 /* Let's get this party started */
@@ -77,7 +82,7 @@ body {
 .introtext h1 {
   color: #1f1f1f;
   font-weight: bold;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+  font-family: 'Playfair Display', serif;
   padding-bottom: 40px;
   padding-top: 60px;
   padding-left: 3px;

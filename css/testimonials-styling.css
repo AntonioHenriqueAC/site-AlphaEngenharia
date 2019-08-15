@@ -75,7 +75,7 @@ section {
 }
 
 blockquote p {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Playfair Display', serif;
   font-size: 20px;
   color: #444444;
 }
@@ -87,7 +87,7 @@ blockquote p {
   padding-top: 25px;
   font-weight: bold;
   letter-spacing: 1px;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Playfair Display', serif;
 }
 
 .testimonial-head {
@@ -115,7 +115,7 @@ blockquote p {
     color: #f27d20ff;
     padding-bottom: 30px;
     padding-top: 30px;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: 'Playfair Display', serif;
   }
 
   .testimonial-head {
@@ -124,7 +124,7 @@ blockquote p {
   }
 
   blockquote p {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: 'Playfair Display', serif;
     font-size: 20px;
     color: #444444;
     padding-bottom: 60px !important;
