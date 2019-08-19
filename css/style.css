@@ -375,6 +375,10 @@ svg:not(:root).svg-inline--fa {
         transparent);
   }
 
+  .grid__item {
+    margin-top: 194px;
+  }
+
   /* projects title filter */
 
   #project-section .project-menu ul li {
