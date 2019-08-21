@@ -5,11 +5,11 @@ html {
 
 body {
   overflow-x: hidden;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 * {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 /* Let's get this party started */
@@ -82,7 +82,8 @@ body {
 .introtext h1 {
   color: #1f1f1f;
   font-weight: bold;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
   padding-bottom: 40px;
   padding-top: 60px;
   padding-left: 3px;
@@ -96,7 +97,7 @@ body {
 .features h3 {
   color: #8c8c8c;
   font-weight: bold;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   padding-bottom: 60px;
 }
 
@@ -160,7 +161,7 @@ div.panel.show {
 
 .heading h4 {
   font-size: 40px;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-weight: bold;
   margin-top: 40px;
   padding-bottom: 20px;
@@ -168,20 +169,20 @@ div.panel.show {
 
 .heading p {
   font-size: 18px;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   color: #595b5b;
 }
 
 .panel p {
   font-size: 18px;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   color: #1d3f5a;
   margin-top: 10px;
 }
 
 button {
   font-size: 18px !important;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .row {
@@ -199,7 +200,7 @@ button {
 
 .header-link {
   color: rgb(76, 77, 79);
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 14px;
   font-weight: 300;
   position: relative;
@@ -290,7 +291,8 @@ svg:not(:root).svg-inline--fa {
   }
 
   .empresaheader h2 {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
     padding-bottom: 10%;
     padding-top: 10%;
     font-size: 20px;
@@ -426,7 +428,8 @@ svg:not(:root).svg-inline--fa {
   }
 
   .empresaheader h2 {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
     padding-bottom: 5%;
     padding-top: 5%;
     font-size: 27px;
@@ -1345,7 +1348,7 @@ html {
 .c-ryanyu {
   background-color: transparent;
   display: block;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   height: 4.375rem;
   margin: 1.25rem auto 0;
   position: relative;
