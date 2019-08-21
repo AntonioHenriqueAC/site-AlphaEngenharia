@@ -33,11 +33,26 @@
   <!--Favicon goes here -->
   <link href="images/icons/bundle/windows/icons/iconApplicationIcon-16x16.png" rel="icon">
 
+      <link rel="stylesheet" type="text/css" href="./css/preloader.css" />
+
+
 
 </head>
 
-<body  data-spy="scroll" data-target=".navbar" data-offset="50">
+<body  data-spy="scroll" data-target=".navbar" data-offset="50" onload="toLoading()">
 
+
+   <!-- preloader -->
+      <div id="preloader">
+         <div id="status">
+            <img src="images/marca/icon_logo2.png" style="margin-left: 5%;" class="imgNav" alt="" width="260" height="90" title="Alpha Engenharia">
+            <br>            
+            <img src="./images/gif/tumblr_nwupxy1Rs21r8tkaro1_400.gif" class="imgLoader" width="450" />
+         </div>
+      </div>
+
+
+      <!-- navbar -->
   <nav class="navbar navbar-default navbar-static-top" id="home" role="navigation">
 
     <div class="navbar-header">
@@ -80,7 +95,10 @@
   </nav>
 
 
-<div class="carousel slide" data-ride="carousel" id="topcarousel">
+  <!-- effect after preloader animate bottom -->
+<div id="page" class="animate-bottom" style="display:none;">
+
+<div class="carousel slide" data-ride="carousel" id="topcarousel" >
 
 
    <div class="col-md-6 pull-right ">
@@ -942,7 +960,7 @@
 
   </footer>
 
-
+</div>
   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js">
   </script> <!-- Include all compiled plugins (below), or include individual files as needed -->
@@ -1004,6 +1022,27 @@ $('#return-to-top').click(function() {      // When arrow is clicked
 });
 
   </script>
+
+
+<!-- preloader -->
+      <script>
+         var myVar;
+         var cont = 1;
+
+         function toLoading() {
+            if (cont == 1) {
+               myVar = setTimeout(showPage, 3000);
+               cont++;
+            } else {
+               myVar = setTimeout(showPage, 0);
+            }
+         }
+
+         function showPage() {
+            document.getElementById('preloader').style.display = 'none';
+            document.getElementById('page').style.display = 'block';
+         }
+      </script>
 
 
 		<!-- mixitUp -->

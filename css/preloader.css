@@ -1,0 +1,72 @@
+#preloader {
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-color: #fff;
+	z-index: 9999999;
+}
+
+#status {
+	position: relative;
+	left: 50%;
+	top: 50%;
+	margin: -13% 0 0 -13%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+/* Add animation to "page content" */
+.animate-bottom {
+	position: relative;
+	-webkit-animation-name: animatebottom;
+	-webkit-animation-duration: 1s;
+	animation-name: animatebottom;
+	animation-duration: 1s
+}
+
+@-webkit-keyframes animatebottom {
+	from {
+		bottom: -100px;
+		opacity: 0
+	}
+
+	to {
+		bottom: 0px;
+		opacity: 1
+	}
+}
+
+@keyframes animatebottom {
+	from {
+		bottom: -100px;
+		opacity: 0
+	}
+
+	to {
+		bottom: 0;
+		opacity: 1
+	}
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+	#status {
+		position: relative;
+		left: 23%;
+		top: 50%;
+		margin: -45% 0 0 -13%;
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+
+	.imgLoader {
+		margin-top: 10%;
+		width: 350px;
+	}
+
+	imgNav {
+		margin-left: 15%;
+	}
+}

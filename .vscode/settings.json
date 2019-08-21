@@ -1,5 +1,6 @@
 {
     "editor.fontFamily": "'Fira Code', 'monospace', monospace, 'Droid Sans Fallback'",
     "editor.tabSize": 2,
-    "editor.insertSpaces": false
+    "editor.insertSpaces": false,
+    "liveServer.settings.port": 5501
 }
