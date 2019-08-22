@@ -12,9 +12,14 @@
 	position: relative;
 	left: 50%;
 	top: 50%;
-	margin: -13% 0 0 -13%;
+	margin: -13% 0 0 -16%;
 	background-repeat: no-repeat;
 	background-position: center;
+}
+
+.imgNav {
+	margin-left: 5%;
+	padding-bottom: 2%;
 }
 
 /* Add animation to "page content" */
@@ -62,11 +67,13 @@
 	}
 
 	.imgLoader {
-		margin-top: 10%;
-		width: 350px;
+		margin-top: 15%;
+		width: 300px;
+		padding-right: 5%;
 	}
 
-	imgNav {
-		margin-left: 15%;
+	.imgNav {
+		padding-right: 3%;
+		margin-left: 0%;
 	}
 }
