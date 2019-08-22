@@ -36,9 +36,10 @@
       <link rel="stylesheet" type="text/css" href="./css/preloader.css" />
 
 
+
 </head>
 
-<body  data-spy="scroll" data-target=".navbar" data-offset="50" onload="toLoading()">
+<body  data-spy="scroll" data-target=".navbar" data-offset="50" onload="toLoading()" >
 
 
    <!-- preloader -->
@@ -49,6 +50,7 @@
             <img src="https://66.media.tumblr.com/b8d371685b50a7bf9e10eb83d147cf1c/tumblr_nwupxy1Rs21r8tkaro1_400.gif" class="imgLoader" width="450" />
          </div>
       </div>
+
 
 
       <!-- navbar -->
@@ -1029,7 +1031,7 @@ $('#return-to-top').click(function() {      // When arrow is clicked
    var myVar;
 
    function toLoading() {
-      myVar = setTimeout(showPage, 2500);
+      myVar = setTimeout(showPage, 1500);
    }
 
    function showPage() {
