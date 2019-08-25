@@ -64,8 +64,10 @@ p {
 	padding-top: 8px;
 	padding-bottom: 8px;
 	font-size: 13px;
-	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-
+	font-family: 'Franklin Gothic Medium',
+		'Arial Narrow',
+		Arial,
+		sans-serif;
 	background-color: rgba(35, 33, 27, 0);
 	border: none;
 
@@ -89,7 +91,8 @@ p {
 
 .navbar-header .imgNav {
 	margin: 13px;
-	height: 60px;
+	height: 70px;
+	width: 220px;
 }
 
 .navbar .navbar-nav {
@@ -177,7 +180,6 @@ p {
 	color: #e5e5e5 !important;
 	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
-
 }
 
 .copyright {
@@ -185,7 +187,6 @@ p {
 	padding-top: 30px;
 	color: #b9d8ea;
 	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-
 
 	margin-left: 5%;
 }
@@ -195,7 +196,6 @@ p {
 	padding-top: 30px;
 	color: #b9d8ea;
 	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-
 
 	margin-right: 10%;
 }
@@ -232,7 +232,6 @@ p {
 		font-size: 16px;
 		font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
-
 		margin-top: 0px;
 		border: none;
 	}
@@ -252,7 +251,6 @@ p {
 		color: #ffffff;
 		font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
-
 	}
 
 	.copyright {
@@ -260,7 +258,6 @@ p {
 		padding-top: 33px;
 		color: #b9d8ea;
 		font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-
 
 		margin-left: 5%;
 		text-align: center;
@@ -271,7 +268,6 @@ p {
 		padding-top: 15px;
 		color: #b9d8ea;
 		font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-
 
 		margin-right: 0%;
 		text-align: center;
@@ -322,7 +318,6 @@ p {
 		font-size: 16px;
 		font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
-
 		margin-top: 0px;
 		border: none;
 	}
@@ -357,7 +352,6 @@ p {
 		color: #b9d8ea;
 		font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
-
 		margin-right: 25%;
 	}
 
@@ -388,7 +382,6 @@ p {
 		padding-left: 12px;
 		font-size: 18px;
 		font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-
 
 		margin-top: -2px;
 	}
